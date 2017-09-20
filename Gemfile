@@ -33,6 +33,9 @@ gem 'jbuilder', '~> 2.5'
 # Gem for authentication
 gem 'devise'
 
+# Gem for views internationalization
+gem 'devise-i18n'
+
 # Gem to simplify views
 gem 'haml-rails'
 
