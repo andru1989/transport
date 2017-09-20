@@ -33,6 +33,9 @@ gem 'jbuilder', '~> 2.5'
 # Gem for authentication
 gem 'devise'
 
+# Gem to simplify views
+gem 'haml-rails'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
