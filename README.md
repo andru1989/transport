@@ -10,3 +10,5 @@ Clone this repo, install dependencies, then start the rails process with the fol
 > rails db:seed
 > rails s
 ```
+
+If you want to try recovering password with devise just add credentials in `/config/application.yml`
