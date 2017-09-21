@@ -1,24 +1,12 @@
-# README
+### Getting Started
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Clone this repo, install dependencies, then start the rails process with the following:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+> git clone https://github.com/andru1989/transport.git
+> cd transport
+> bundle install
+> rails db:migrate
+> rails db:seed
+> rails s
+```
