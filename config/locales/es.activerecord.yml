@@ -8,3 +8,14 @@ es:
         email: Correo electronico
         password: Contraseña
         password_confirmation: Confirmar contraseña
+      vehicle:
+        color: Color
+        model: Modelo
+        licence_plate: Placa
+        category: Categoría
+        categories:
+          first_category: Categoría uno
+          second_category: Categoría dos
+    errors:
+      vehicle:
+        unpermitted_licence_plate: no permitida por el sistema

@@ -1,0 +1,12 @@
+es:
+  views:
+    travels:
+      index_title: Listado de recorridos
+
+    attributes:
+      travel:
+        origin: Origen
+        destination: Destino
+        vehicle_licence_plate: Placa
+        passenger_name: Pasajero
+        vehicle_category: Categoría
