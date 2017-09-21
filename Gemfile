@@ -39,6 +39,8 @@ gem 'devise-i18n'
 # Gem to simplify views
 gem 'haml-rails'
 
+gem 'figaro'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
