@@ -1,0 +1,11 @@
+shared_config: &shared_config
+  permitted_licence_plates: ['ABC', 'DFG']
+
+development: &development
+  <<: *shared_config
+
+test:
+  <<: *shared_config
+
+production:
+  <<: *shared_config
