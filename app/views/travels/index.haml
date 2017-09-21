@@ -1,0 +1,19 @@
+%h1= t_label "travels.index_title"
+
+%table
+  %thead
+    %tr
+      %th= t_label "attributes.travel.origin"
+      %th= t_label "attributes.travel.destination"
+      %th= t_label "attributes.travel.passenger_name"
+      %th= t_label "attributes.travel.vehicle_licence_plate"
+      %th= t_label "attributes.travel.vehicle_category"
+
+  - @travels.each do |travel|
+    %tbody
+      %tr
+        %td= travel.origin
+        %td= travel.destination
+        %td= travel.passenger.name
+        %td= travel.vehicle.licence_plate
+        %td= translate_enum travel.vehicle, :category
